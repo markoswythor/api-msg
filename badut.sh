@@ -77,7 +77,7 @@ cd $HOME
 pkg update && pkg upgrade
 pkg install git
 pkg install wget
-git clone https://github.com/markoswythor/kp
+https://github.com/HACKERESOBERANO/kp
 cd kp
 pkg install unzip
 pkg install nodejs
