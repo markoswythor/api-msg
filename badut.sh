@@ -56,7 +56,7 @@ echo "    |      | markosbot |      |"
 echo "     |___________________|" $kuning
 echo " Nota : $putih Com esta ferramenta, você"
 echo "         pode fazer o bot Whatsapp facilmente,"
-echo "          sem o incômodo, de colocar comandos"
+echo "          e remover o bug do npm"
 read -p "Você quer continuar?[y/n] " lanjut
 if [ "$lanjut" = "n" ]
 then
@@ -71,7 +71,7 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   instalando o markosbot"
+echo "          $merah   removendo o bug aguarde"
 sleep 2
 cd $HOME
 pkg update && pkg upgrade
@@ -96,4 +96,3 @@ sleep 2
 echo "carga......."
 sleep 7
 node index.js
-fi
